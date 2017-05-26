@@ -1,0 +1,21 @@
+#back{
+  background-color:lightskyblue;
+  }
+.font{
+      font-size:16px;
+    }
+    #back .aha a:hover{
+      color:darkred;
+    }
+    #back .navbar a:hover{
+      color:mediumseagreen;
+    }
+    #back .aha a:link{
+      text-decoration:none;
+    }
+    #backk a:hover{
+      color:mediumseagreen;
+    }
+#addd{
+  font-family: cursive;
+}
