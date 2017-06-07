@@ -9,7 +9,7 @@
       $price=$myrow['Price'];
       $currency=$myrow['Currency'];
       $Company=$myrow['CompanyName'];
-      $phone=$myrow['Phone'];
+      $pphone=$myrow['Phone'];
       $province=$myrow['Province'];
       $district=$myrow['District'];
       $sector=$myrow['Sector'];
@@ -76,7 +76,7 @@
         <div style="font-family:cursive" class="col-lg-6">
             <p>Price: <b><?php echo $price.' '.$currency; ?></b></p>
             <p>Owner: <b><?php echo $Company; ?></b></p>
-            <p>Tel: <b><?php echo $phone; ?></b></p>
+            <p>Tel: <b><?php echo $pphone; ?></b></p>
             <p>Place: <b><?php echo $province.', '.$district.', '.$sector; ?></b></p>
             <p>More: <b><?php echo $more; ?></b></p>
         </div>
@@ -94,7 +94,7 @@
                         <p class="text-center"><input type="submit" name="kbss" class="btn btn-success" value="Order" /> | <input type="reset" class="btn btn-danger" value="Reset"/></p>
                         <input style="visibility:hidden;" name="SID" class="form-control" type="text" value="'.$id.'" required />
                         <input style="visibility:hidden;" name="pro" class="form-control" type="text" value="'.$product.'" required />
-                        <input style="visibility:hidden;" name="phone" class="form-control" type="text" value="'.$phone.'" required />
+                        <input style="visibility:hidden;" name="phone" class="form-control" type="text" value="'.$pphone.'" required />
                     </div>
                     </form>';
             }else{

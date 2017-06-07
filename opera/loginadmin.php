@@ -41,12 +41,12 @@ include("../connect.php");
   		while($myrow = mysqli_fetch_array($pipsql)){
 			  $name=$myrow['Username'];
 		}
-		$pipsqli = mysqli_query($dbcon,"SELECT * FROM company WHERE Username='$user'");
+		$pipsqli = mysqli_query($dbcon,"SELECT * FROM company WHERE Phone='$phone'");
   		while($myrow = mysqli_fetch_array($pipsqli)){
-			  $name=$myrow['Username'];
+			  $nname=$myrow['Company'];
 		}
-		$sql= "INSERT INTO orders(fromuser,Phone,userID,serviceID,Date)
-	              VALUES('$content','$phone','$name','$prod',now())";
+		$sql= "INSERT INTO orders(fromuser,Phone,userID,serviceID,Company,Date)
+	              VALUES('$content','$phone','$name','$prod','$nname',now())";
 		$res= mysqli_query($dbcon,$sql) or die ("Failed".mysqli_error());
 		if(isset($res)){
 			echo '<meta http-equiv="refresh" content="0;url=../order.php?SID='.$serviceId.'&&yes=1">';

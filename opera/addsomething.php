@@ -371,7 +371,7 @@ include("../connect.php");
     //Owner
 	if(isset($_POST['yeaa'])){
         $company = htmlentities($_POST['comp']);
-		$phone="none";
+		$phone=htmlentities($_POST['phone']);;
         $name = htmlentities($_POST['item']);
         $gender="none";
 		$price = htmlentities($_POST['price']);

@@ -101,7 +101,7 @@
 
         <div class="row">
             <div class="col-md-6">
-                <img style="width:100%;height:300px" class="img-responsive" src="sample.jpg" alt="">
+                <img style="width:100%;height:300px" class="img-responsive" src="assets\img\products\5 star hotel.jpg" alt="">
             </div>
             <div class="col-md-6">
                 <h2>About The Event Planning System</h2>
@@ -120,14 +120,13 @@
             </div>
             <div class="col-md-4 text-center">
                 <div class="thumbnail">
-                    <div align="center"><img style="position:relative;height:250px" class="img-responsive" src="sample.jpg" alt=""></div>
+                    <div align="center"><img style="position:relative;height:250px" class="img-responsive" src="assets/img/adminpic/dre.jpg" alt=""></div>
                     <div class="caption">
                         <h3>Charlotte<br>
                             <small>Director</small>
                         </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime.</p>
                         <ul class="list-inline">
-                            <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
+                            <li><a href="https://web.facebook.com/search/top/?q=charlotte%20umwali"><i class="fa fa-2x fa-facebook-square"></i></a>
                             </li>
                             <li><a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a>
                             </li>
@@ -144,9 +143,8 @@
                         <h3>Salva<br>
                             <small>Manager</small>
                         </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime.</p>
                         <ul class="list-inline">
-                            <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
+                            <li><a href="https://web.facebook.com/mystica.salva.mutanguha"><i class="fa fa-2x fa-facebook-square"></i></a>
                             </li>
                             <li><a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a>
                             </li>
@@ -163,9 +161,8 @@
                         <h3>Thacienne<br>
                             <small>Developer</small>
                         </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime.</p>
                         <ul class="list-inline">
-                            <li><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a>
+                            <li><a href="https://web.facebook.com/thacianne.tuyambaze"><i class="fa fa-2x fa-facebook-square"></i></a>
                             </li>
                             <li><a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a>
                             </li>

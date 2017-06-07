@@ -74,7 +74,8 @@
                                         <tbody>
                                         <?php
                                             include("../connect.php");
-                                            $sqli="SELECT * FROM orders WHERE 1 ORDER BY Date DESC";
+                                            $comp = $_SESSION['company'];
+                                            $sqli="SELECT * FROM orders WHERE Company='$comp' ORDER BY Date DESC";
                                             $result=mysqli_query($dbcon,$sqli);
                                              while ($row=mysqli_fetch_assoc($result)) {
                                                  $id=$row['ID'];

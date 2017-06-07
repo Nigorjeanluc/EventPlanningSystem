@@ -128,14 +128,14 @@
                                             <label>Price</label>
                                             <input class="form-control" name="price" type="text" placeholder="Enter the price of your product" required>
                                         </div>
-                                        <div style="visibility:none" class="form-group">
-                                            <label>Company</label>
+                                        <div style="visibility:hidden" class="form-group">
                                             <?php
                                                 $nname = $_SESSION['company'];
-                                                $sqli="SELECT * FROM company WHERE Owner='$nname'";
+                                                $sqli="SELECT * FROM company WHERE Owner='$nname' OR Company ='$nname'";
                                                 $result=mysqli_query($dbcon,$sqli);
                                                 while ($row=mysqli_fetch_assoc($result)) {
                                                 echo'<input class="form-control" name="comp" type="text" value="'.$row['Company'].'" required>';
+                                                echo'<input class="form-control" name="phone" type="text" value="'.$row['Phone'].'" required>';
                                                 }
                                             ?>
                                         </div>
