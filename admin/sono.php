@@ -97,6 +97,7 @@
                                                                     </tbody>
                                                                 </table>
                                                                 <!-- /.table-responsive -->
+                                        <div align="right"><button class="btn btn-default" onClick="window.print()">Print</button></div>
                                     </div><!--panel-body -->
                                 </div>
                                 <!-- /.panel -->

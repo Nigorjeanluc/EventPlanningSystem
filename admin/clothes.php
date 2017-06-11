@@ -167,6 +167,7 @@
                                                                             
                                                                         </tbody>
                                                                 </table>
+                                                                <div align="right"><button class="btn btn-default" onClick="window.print()">Print</button></div>
                                                             </div>
                                                         </div>
                                                     </div>
